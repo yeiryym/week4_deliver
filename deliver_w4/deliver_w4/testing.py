@@ -27,7 +27,7 @@ class TurtleBotVacuumCleaner(Node):
 
         self.linear_velocity = 0.2
         self.angular_velocity = 0.5  
-        self.radius_increase_rate = 0.005  
+        self.radius_increase_rate = 0.01  
         self.max_radius = 6 
        
         self.stop_cleaning = False  
